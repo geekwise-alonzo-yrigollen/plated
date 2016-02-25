@@ -5,7 +5,6 @@ html,body{
     width:100%;
     background-color:whitesmoke;
     position:center;
-    background-image: url(http://i.imgur.com/EbLj0Po.jpg);
     background-repeat: no-repeat;
 }
 
@@ -57,26 +56,36 @@ h1:hover{
     
     float:right;
     margin:0 auto;
+    
+}
     #three{
+        
     display:inline;
     color:gray;
     float:right;
-    background-color:aquamarine
-}width:120px;
+    background-color:aquamarine;
+    width:120px;
     text-align:center;
     color:black;
     background-color:bisque;
     letter-spacing: 4px;
+        
 }
+
 #four:hover{
     color:beige;
     background-color:black;
     transition: background 2s;
 }
+body{
+    width:100%;
+    height:90%;
+    background-image: url(http://i.imgur.com/EbLj0Po.jpg);
+}
 
 #centerParagraph{
     
-    color:ghostwhite;
+    color:black;
     margin:0 auto;
     text-align: center;
 }
