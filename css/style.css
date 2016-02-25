@@ -47,7 +47,14 @@ h1:hover{
 }
 
 #four{
+    color:white;
+    background-color:aquamarine
     float:right;
+}
+#four:hover{
+    color:beige;
+    background-color:black;
+    transition: background 2s;
 }
 
 span > img{
