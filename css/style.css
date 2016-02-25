@@ -50,24 +50,46 @@ h1:hover{
     display:inline;
     color:gray;
     float:right;
-    
+    background-color:aquamarine
 }
 
 #four{
     
-    margin:0 auto;
-    width: 30px;
-    height: 10px;
-    color:white;
-    display:inline;
-    background-color:aquamarine;
     float:right;
+    margin:0 auto;
+    #three{
+    display:inline;
+    color:gray;
+    float:right;
+    background-color:aquamarine
+}width:120px;
+    text-align:center;
+    color:black;
+    background-color:bisque;
+    letter-spacing: 4px;
 }
 #four:hover{
     color:beige;
     background-color:black;
     transition: background 2s;
 }
+
+#centerParagraph{
+    
+    color:ghostwhite;
+    margin:0 auto;
+    text-align: center;
+}
+.button{
+    
+    color:white;
+    text-align: center;
+    height:220px;
+    font-size: 20px
+        
+}
+
+
 
 /*
 span > img{
