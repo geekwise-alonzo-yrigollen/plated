@@ -4,7 +4,9 @@ html,body{
     height:100%;
     width:100%;
     background-color:whitesmoke;
+    position:center;
     background-image: url(http://i.imgur.com/EbLj0Po.jpg);
+    background-repeat: no-repeat;
 }
 
 header{
@@ -45,17 +47,19 @@ h1:hover{
 
 }
 #three{
-    
+    display:inline;
     color:gray;
     float:right;
     
 }
 
 #four{
+    
     margin:0 auto;
     width: 30px;
     height: 10px;
     color:white;
+    display:inline;
     background-color:aquamarine;
     float:right;
 }
@@ -65,16 +69,15 @@ h1:hover{
     transition: background 2s;
 }
 
+/*
 span > img{
     
     margin:0 auto;
     width:100%;
     opacity:233%;
     
-    
-    
-    
-    
+}
+*/
     
 }
 
