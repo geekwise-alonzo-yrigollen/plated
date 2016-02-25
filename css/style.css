@@ -109,6 +109,16 @@ footer{
     height: 120px;
 }
 
+#about > ul > li{
+    display:block;
+    background-color:red;
+}
+
+#fbook > ul > li{
+    background-color:burlywood;
+}
+
+
 /*
 middle1{
     
@@ -128,6 +138,7 @@ span > img{
     
 }
 */
+/*
 section > div > img{
 
     margin:0 auto;
@@ -135,6 +146,7 @@ section > div > img{
     height: 240px;
     
 }    
+*/
 
 
 @media only screen and (min-width:600px) and (max-width:920px){
