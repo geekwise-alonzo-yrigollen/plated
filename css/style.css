@@ -20,6 +20,7 @@ header{
     text-align:center;
 }
 
+
 h1{
     
     font-size: uppercase;
@@ -45,11 +46,25 @@ h1:hover{
     text-align: center;
 
 }
+
 #three{
+        
     display:inline;
     color:gray;
     float:right;
-    background-color:aquamarine
+    background-color:aquamarine;
+    text-align:center;
+    color:black;
+    letter-spacing: 4px;
+        
+}
+
+#four:hover{
+    
+    color:beige;
+    background-color:black;
+    transition: background 2s;
+    
 }
 
 #four{
@@ -58,29 +73,13 @@ h1:hover{
     margin:0 auto;
     
 }
-    #three{
-        
-    display:inline;
-    color:gray;
-    float:right;
-    background-color:aquamarine;
-    width:120px;
-    text-align:center;
-    color:black;
-    background-color:bisque;
-    letter-spacing: 4px;
-        
-}
 
-#four:hover{
-    color:beige;
-    background-color:black;
-    transition: background 2s;
-}
+
 body{
     width:100%;
     height:90%;
     background-image: url(http://i.imgur.com/EbLj0Po.jpg);
+    background-repeat: no-repeat; 
 }
 
 #centerParagraph{
@@ -88,14 +87,18 @@ body{
     color:black;
     margin:0 auto;
     text-align: center;
+    
 }
+
 .button{
     
+    width:250px;
     color:white;
-    text-align: center;
-    height:220px;
-    font-size: 20px
-        
+    margin:0 auto;
+    background-color:lightskyblue;
+    height:30px;
+    font-size: 20px;
+          
 }
 
 
