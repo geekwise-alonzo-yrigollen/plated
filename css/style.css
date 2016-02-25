@@ -3,23 +3,40 @@ html,body{
     margin:3px;
     height:100%;
     width:100%;
-    background-color:goldenrod;
+    background-color:whitesmoke;
     
 }
 
 header{
     
-    margin:none;
+    margin:0 auto;
     display:inline-block;
     width:100%;
+    padding: 0px 0px 5px 0px;
     height:3rem;
-    padding:1rem;
-    background-color:gray;
+    background-color:ghostwhite;
     color:red;
     text-align:center;
 }
+
 h1{
-    font-size: 
+    
+    
+     
+}
+
+span > img{
+    
+    margin:0 auto;
+    width:100%;
+    
+    opacity:33%;
+    
+    
+    
+    
+    
+    
 }
 
 @media only screen and (min-width:600px) and (max-width:920px){
