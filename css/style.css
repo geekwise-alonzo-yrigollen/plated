@@ -1,4 +1,5 @@
 html,body{
+    
     margin:3px;
     height:100%;
     width:100%;
@@ -9,13 +10,16 @@ html,body{
 header{
     
     margin:none;
-    display:inline-block; 
+    display:inline-block;
     width:100%;
-    height:15rem;
+    height:3rem;
     padding:1rem;
     background-color:gray;
-    
-
+    color:red;
+    text-align:center;
+}
+h1{
+    font-size: 
 }
 
 @media only screen and (min-width:600px) and (max-width:920px){
