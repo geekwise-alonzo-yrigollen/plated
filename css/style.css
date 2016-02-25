@@ -4,7 +4,7 @@ html,body{
     height:100%;
     width:100%;
     background-color:whitesmoke;
-    
+    background-image: url(http://i.imgur.com/EbLj0Po.jpg);
 }
 
 header{
@@ -33,11 +33,16 @@ h1:hover{
     
     float:left;
     margin:0 auto;
-    text-align:left;
+    width:120px;
+    text-align:center;
     color:gray;
+    letter-spacing: 4px;
 }
 #two{
-    
+    margin:0 auto;
+    width:120px;
+    text-align: center;
+
 }
 #three{
     
@@ -47,8 +52,11 @@ h1:hover{
 }
 
 #four{
+    margin:0 auto;
+    width: 30px;
+    height: 10px;
     color:white;
-    background-color:aquamarine
+    background-color:aquamarine;
     float:right;
 }
 #four:hover{
@@ -61,7 +69,7 @@ span > img{
     
     margin:0 auto;
     width:100%;
-    opacity:33%;
+    opacity:233%;
     
     
     
