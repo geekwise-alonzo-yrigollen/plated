@@ -21,15 +21,39 @@ header{
 
 h1{
     
-    
+    font-size: uppercase;
      
+}
+h1:hover{
+    color:aqua;
+    transition: color 1s;
+}
+
+#one{
+    
+    float:left;
+    margin:0 auto;
+    text-align:left;
+    color:gray;
+}
+#two{
+    
+}
+#three{
+    
+    color:gray;
+    float:right;
+    
+}
+
+#four{
+    float:right;
 }
 
 span > img{
     
     margin:0 auto;
     width:100%;
-    
     opacity:33%;
     
     
