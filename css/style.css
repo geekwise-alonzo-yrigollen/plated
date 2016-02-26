@@ -121,11 +121,23 @@ main{
     }
 
 #image{
+    
     margin:0 auto;
     height: 90%; 
     width:100%;
 }
+
+#image>p{
+    
+    position: absolute; 
+    top: 120px; 
+    width: 500px; 
+    padding-left: 30px;
+        
+}
+
 #chef{
+    
     font-size:2em;
     background-color:aquamarine;
 }
