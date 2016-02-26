@@ -1,0 +1,17 @@
+html,body{
+    
+    margin:7px;
+    padding:1px;
+    font-size:62.5%;
+    box-sizing:border-box;
+    background-color:mediumslateblue;
+    
+}
+
+header{
+    width:65%;
+    margin:0 auto;
+    display:inline;
+    float:right;
+    text-align: center;
+    background-color:plum
