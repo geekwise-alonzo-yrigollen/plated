@@ -20,6 +20,7 @@ header{
 
 h1{
     color:red;
+    display:inline-block;
     margin:0 auto;
     width:120px;
     padding:inherit;
