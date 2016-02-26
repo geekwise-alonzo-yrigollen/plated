@@ -122,12 +122,12 @@ main{
 
 #image{
     margin:0 auto;
-    height: 90%;
+    height: 90%; 
     width:100%;
 }
 #chef{
     font-size:2em;
-    background-color:aquamarine
+    background-color:aquamarine;
 }
 
         
