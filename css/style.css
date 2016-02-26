@@ -19,13 +19,25 @@ header{
         
 }
 section>div>ul>li{
+    
     margin:0 auto;
     display:inline-block;
     font-size: 2em;
 }
 li{
     color:blue;
-    background-color:aquamarine
+    display:inline-block;
+    background-color:aquamarine;
+    float:right;
+}
+div>ul>li>em{
+    
+    margin:0 auto;
+    width:20px;
+    display: inline-block;
+    padding:6px;
+    float:left;
+    
 }
 body{
     
@@ -34,12 +46,27 @@ body{
     
 }
 main{
+    
+    margin:0 auto;
+    height:100%;
+    width:100%;
+/*
     background-image: url("http://i.imgur.com/TmwH05m.jpg");
     background-repeat: no-repeat;
-        
+*/
+    
 }
-        
-        
+    
+.imageContainer{
+    
+        position: center;
+        width: 100%; /*the image width*/
+        height: 100%; /*the image height*/
+        left: 50%;
+        top: 50%;
+        margin-left: -50px; /*half the image width*/
+        margin-top: -50px; /*half the image height*/       
+    }        
         
         
         
