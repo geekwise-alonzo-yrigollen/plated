@@ -119,11 +119,17 @@ main{
         margin-left: -50px; /*half the image width*/
         margin-top: -50px; /*half the image height*/       
     }
+
 #image{
     margin:0 auto;
     height: 90%;
     width:100%;
 }
+#chef{
+    font-size:2em;
+    background-color:aquamarine
+}
+
         
         
 @media only screen and (min-width:920) and (max-width:920px){
