@@ -31,20 +31,19 @@ section>div>ul>li{
     width:100%;
     display:inline;
     font-size: 2em;
-    
-    
+        
 }
 
 li{
     color:blue;
-    display:block;
-    background-color:aquamarine;
+    display:inline-block;
+    background-color:white;
     
 }
 
 ul{
     
-    display:inline;
+    display:block;
     margin:0 auto;
     
 }
