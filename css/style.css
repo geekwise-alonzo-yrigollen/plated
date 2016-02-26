@@ -17,10 +17,12 @@ header{
     background-color:bisque
     
 }
+
 header > p{
     display:block;
     color:white;
 }
+
 header > p:hover{
     color:black;
     background-color:white;
