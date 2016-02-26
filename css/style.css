@@ -9,9 +9,35 @@ html,body{
 }
 
 header{
+    
     width:65%;
     margin:0 auto;
     display:inline;
     float:right;
     text-align: center;
     background-color:plum
+        
+}
+body{
+    
+    margin:0 auto;
+    background-color:red;
+    
+}
+main{
+    background-image: url("http://i.imgur.com/TmwH05m.jpg");
+    background-repeat: no-repeat;
+        
+}
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
