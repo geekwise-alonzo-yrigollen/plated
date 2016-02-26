@@ -20,21 +20,31 @@ header{
 
 h1{
     color:red;
+    display:inline-block;
     margin:0 auto;
     width:120px;
     padding:inherit;
     text-align: center;
 }
+
 h2{
     width:100px;
     float:right;
-    padding:5px;
+    display:inline-block;
+    padding:0;
     
 }
+
 h3{
-    width:100px;
+    
+    height: auto;
+    width:3em;
+    display:inline-block;
+    padding:0;
+    background-color:aquamarine;
+    font-variant-position: normal;
     float:right;
-    padding:5px;
+    
 }
 
 section>div>ul>li{
@@ -63,7 +73,7 @@ ul{
 div>ul>li>em{
     
     margin:0 auto;
-    width:20px;
+    width:55px;
     display: inline;
     padding:6px;
     float:left;
