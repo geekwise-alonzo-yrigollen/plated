@@ -22,7 +22,19 @@ h1{
     color:red;
     margin:0 auto;
     width:120px;
+    padding:inherit;
     text-align: center;
+}
+h2{
+    width:100px;
+    float:right;
+    padding:5px;
+    
+}
+h3{
+    width:100px;
+    float:right;
+    padding:5px;
 }
 
 section>div>ul>li{
@@ -56,15 +68,13 @@ div>ul>li>em{
     padding:6px;
     float:left;
     
-    
-    
-    
 }
 
 div{
     
     margin:0 auto;
     width:100%;
+    background-color:ghostwhite;
     height: 100px;
     display:block;
 }
