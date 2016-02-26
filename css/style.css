@@ -1,6 +1,6 @@
 html,body{
     
-    margin:7px;
+    margin:0 auto;  
     padding:1px;
     font-size:72.5%;
     box-sizing:border-box;
@@ -12,7 +12,7 @@ header{
     
     width:65%;
     margin:0 auto;
-    display:inline;
+    display:block;
     text-align: center;
     background-color:plum
         
@@ -20,9 +20,11 @@ header{
 
 section>div>ul>li{
     
-    margin:0 auto;
+    
+    width:100%;
     display:inline-block;
     font-size: 2em;
+    
     
 }
 li{
@@ -34,7 +36,7 @@ li{
 ul{
     display:inline;
     margin:0 auto;
-    float:left;
+    
 }
 
 div>ul>li>em{
