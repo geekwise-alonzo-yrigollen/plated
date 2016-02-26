@@ -22,16 +22,16 @@ section>div>ul>li{
     
     
     width:100%;
-    display:inline-block;
+    display:inline;
     font-size: 2em;
     
     
 }
 li{
     color:blue;
-    display:inline-block;
+    display:block;
     background-color:aquamarine;
-    float:right;
+    
 }
 ul{
     display:inline;
@@ -48,6 +48,7 @@ div>ul>li>em{
     float:left;
     
 }
+
 div{
     
     margin:0 auto;
