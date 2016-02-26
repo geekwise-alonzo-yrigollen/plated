@@ -18,6 +18,15 @@ header{
     background-color:plum
         
 }
+section>div>ul>li{
+    margin:0 auto;
+    display:inline-block;
+    font-size: 2em;
+}
+li{
+    color:blue;
+    background-color:aquamarine
+}
 body{
     
     margin:0 auto;
