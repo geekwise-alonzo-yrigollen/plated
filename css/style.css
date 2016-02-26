@@ -10,12 +10,19 @@ html,body{
 
 header{
     
-    width:65%;
+    width:100%;
     margin:0 auto;
     display:block;
     text-align: center;
-    background-color:plum
+    background-color:plum;
         
+}
+
+h1{
+    color:red;
+    margin:0 auto;
+    width:120px;
+    text-align: center;
 }
 
 section>div>ul>li{
@@ -27,13 +34,16 @@ section>div>ul>li{
     
     
 }
+
 li{
     color:blue;
     display:block;
     background-color:aquamarine;
     
 }
+
 ul{
+    
     display:inline;
     margin:0 auto;
     
@@ -46,6 +56,9 @@ div>ul>li>em{
     display: inline;
     padding:6px;
     float:left;
+    
+    
+    
     
 }
 
@@ -63,6 +76,7 @@ body{
     background-color:red;
     
 }
+
 main{
     
     margin:0 auto;
