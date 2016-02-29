@@ -1,116 +1,283 @@
 html,body{
-    
-    margin:0 auto;  
-    padding:1px;
-    font-size:72.5%;
-    box-sizing:border-box;
-    background-color:mediumslateblue;
-    
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    box-sizing: border-box;
 }
-
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    width: 100%;
+    height: 100%;
+    font-family: serif;
+}
+#photo{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 450px;
+    position: relative;
+    background-image: url("http://i.imgur.com/RtIG5AV.jpg");
+    background-repeat: no-repeat;
+    background-image: cover;
+    background-size:100%;
+}
+}
 header{
     
+    margin: 0 auto;
     width:100%;
-    margin:0 auto;
-    display:block;
-    text-align: center;
-    background-color:plum;
-        
-}
-
-h1{
-    color:red;
-    display:inline-block;
-    margin:0 auto;
-    width:120px;
-    padding:inherit;
-    text-align: center;
-}
-
-h2{
-    width:100px;
-    float:right;
-    display:inline-block;
-    padding:0;
-
+    height: 500px;
     
 }
 
-h3{
+div{ 
+    padding: 0;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+button{
+    border: none;
+    line-height: 5.5rem;
+    background-color: white;
+    float: left;
+    font-size: 1.4rem;
+}
+
+
+#lU{
+    position: relative;
+    top:-80px;
+    font-size: 1.2em;
+    height: 80px;
+    width: 10%;
+    line-height: 9.3rem;
+    text-align: center;
+    float: right;
+    color: black;
     
+}
+
+#sU{
+    position: relative;
+    top:-80px;
+    font-size: 1.2em;
+    height: 80px;
+    width: 10%;
+    line-height: 9rem;
+    text-align: center;
+    float: right;
+    color: #fff;
+    background-color:#00b386;
+}
+
+#top{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: auto;
+    text-transform: uppercase;
+}
+main{
+    margin: 0;
+    width: auto;
     height: auto;
-    width:3em;
-    display:inline-block;
-    padding:0;
-    background-color:aquamarine;
-    font-variant-position: normal;
-    float:right;
-    
 }
 
-section>div>ul>li{
-    
-    
+#about{
+    margin: 0 auto;
     width:100%;
-    display:inline;
-    font-size: 2em;
-        
-}
-
-li{
-    color:blue;
-    display:inline-block;
-    background-color:white;
+    position: relative;
+    top:5px;
+    display: block;
+    width:auto;
+    font-size: 1.3rem;
+    line-height: 3rem;
     
 }
 
 ul{
-    background-color:whitesmoke;
-    display:block;
-    margin:0 auto;
-    
-}
-
-div>ul>li>em{
-    
-    margin:0 auto;
-    width:55px;
+   
     display: inline;
-    padding:6px;
-    float:left;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    width:auto;
+    
+
     
 }
-
-div{
+li{
     
-    margin:0 auto;
+    float: left;
+    width: calc(100%/5);
+    display:block;
+    width: 100px;
+    height: 30px;
+    
+
+}
+#end{
+    
+    position: relative;
+    top:10px;
+    display: block;
+    width:auto;
+    margin: 0 auto;
     width:100%;
+}
+#contacts{
+ 
+    padding:3px;
+    display:inline-block;
+    float: right;
+    width:146px;
+    text-transform: lowercase;
+    
+}
+#number{
+    padding:3px;
+    display:inline-block;
+    float: right;
+    width:100%;
+    background-color:red;
+    text-transform: lowercase;
+}
+a{
+    color: black;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+#articleOne{
+    width: 100%;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+span > p{
+    width: 100%;
+    margin: 0 auto;
+    font-size:40px;
+    display:inline-block;
+    text-align: center;
+    font-weight: bold;
+    color: ghostwhite
+}
+
+/*first middle text box*/
+
+input{
+    margin: 20px;
+    padding: 20px 100px 20px 100px;
     background-color:ghostwhite;
-    height: 100px;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+
+
+}
+
+#see{
+    text-align: center;
+    padding: 20px 100px 20px 100px;
+    background-color: #00b386;
+    border:none;
+    text-decoration: none;
+    color: white;
+    margin: 0 auto;
     display:block;
     
 }
 
-body{
+/*center text box ends*/
+
+#plans{
+    font-size: 20px;
+    color:#fff;
+    letter-spacing: 2px;
+    text-decoration: none;
+}   
+}
+footer{
+    margin: 0 auto;
+    padding:0;  
     
-    margin:0 auto;
-    background-color:red;
+}
+#end{
+   margin: 0 auto;
+    padding: 0;
+    float: left;
+    text-transform: uppercase;
+    
+}
+ol > ptpc{
+    text-align:left;
+    float: left;
+    width: 100px;
+    display: inline-block;
+   
+}
+#new{
+    width: 5=0%;
+    float: right;
+    margin-top:-17px;
+    font-size: 24px;;
+    letter-spacing: 5px;
+    text-align: right;
+    
+}
+/*NEW CSS*/
+
+
+@media only screen and (max-width:630px){
+ 
+    header{
+        max-width:calc(100%/1.06);
+    }
+
+    body{
+        max-width: calc(100%/1.06);
+    }
+#photo > div > input{
+    max-width: calc(100%/80%);
+}
+
+
+/*OLD CSS*/
+/*
+@media only screen and (min-width:600px)and (max-width:920px){
+    body{
+        width:90%;
+        
+    }
+    
+}
+@media only screen and (max-width:599px){
+    body {
+        width: 320px;
+    }
+    
+    
+        pre{         
+            font-size:.83m;
+            padding: 5em;
+            background: rgb (246,247,160);
+        }
     
 }
 
-main{
-    
-    margin:0 auto;
-    height:100%;
-    width:100%;
-/*
-    background-image: url("http://i.imgur.com/TmwH05m.jpg");
-    background-repeat: no-repeat;
-*/
-    
-}
-    
-.imageContainer{
+@media only screen and (max-width:420px){
+    #icons{
+        display: block;
+        margin: 0 auto;
+        margin-right:100px;
+        
+        
+      
+/*.imageContainer{*/
     
         position: center;
         width: 100%; /*the image width*/
@@ -120,62 +287,6 @@ main{
         margin-left: -50px; /*half the image width*/
         margin-top: -50px; /*half the image height*/       
     }
-
-#image{
-    
-    margin:0 auto;
-    height: 90%; 
-    width:100%;
-}
-
-#image>p{
-    
-    background-color:white;
-    position:absolute; 
-    top: 120px; 
-    width: 500px; 
-    padding-left: 30px;
-        
-}
-
-#chef{
-    
-    font-size:2em;
-    background-color:aquamarine;
-}
-
-        
-        
-@media only screen and (min-width:920) and (max-width:920px){
-    body{
-        width:90%;
-    }
-}  
-@media only screen and (max-width:599px){
-    
-}
-body{
-    width 320px
-}    
-pre{
-    font-size:.8em;
-    padding: .5em;
-    background:rgb(246, 247, 160);
-}
-
-
-@media only screen and (max-width:584px){
-    
-}
-body{
-    body{
-        width 320px
-    }
-}
-
-
-
-
 
 
 
