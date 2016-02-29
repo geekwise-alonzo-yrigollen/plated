@@ -9,6 +9,7 @@ body{
     padding: 0;
     font-size: 12px;
     width: 100%;
+    max-width: inherit;
     height: 100%;
     font-family: serif;
 }
@@ -203,6 +204,7 @@ input{
     color:ghostwhite;
     margin: 0 auto;
     display:block;
+
     
 }
 #see:hover{
@@ -259,10 +261,17 @@ ol > ptpc{
     body{
         max-width: calc(100%/1.06);
     }
-#photo > div > input{
-    max-width: calc(100%/80%);
-}
 
+
+    @media only screen and (max-width:629px){
+        header{
+            max-width:calc(100%/.99);
+        }
+        body{
+            max-width: calc(100%/.99);
+        }
+        
+    }
 
 /*.imageContainer{*/
     
